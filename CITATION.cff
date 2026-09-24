@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "PsychStats"
+message: "If you use PsychStats, please cite or link to the project."
+type: software
+authors:
+  - family-names: Zahra
+    given-names: Salma
+version: 1.0.0
+date-released: 2026-09-24
+repository-code: "https://github.com/"
