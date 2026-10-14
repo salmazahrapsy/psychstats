@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/Psychology/Clinical_Psychopathology</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>[PSY-GAD-001] GAD Diagnostic Duration and Autonomic Symptoms</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;According to DSM-5-TR and WHO ICD-11 diagnostic criteria, what is the minimum duration of excessive, uncontrollable worry required to establish a diagnosis of Generalized Anxiety Disorder (GAD)?&lt;/p&gt;&lt;p&gt;&lt;small&gt;&lt;em&gt;Source: &lt;a href='https://psychstats.miraheze.org/wiki/Psychology/Generalized_Anxiety_Disorder'&gt;PsychStats Knowledge Base&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>&lt;p&gt;Diagnostic validity for GAD requires excessive anxiety occurring more days than not for at least 6 months about multiple life domains (Source: PsychStats Wiki / DSM-5-TR).&lt;/p&gt;</text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text>&lt;p&gt;At least 6 months, occurring more days than not&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Correct. DSM-5-TR and ICD-11 mandate persistent worry for at least 6 months accompanied by minimum 3 autonomic/motor symptoms.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;At least 2 weeks, accompanied by depressed mood&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. A 2-week threshold characterizes a Major Depressive Episode, not GAD.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;At least 1 month following an identifiable acute stressor&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. This timeline describes Acute Stress Disorder or Adjustment Disorder.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;At least 12 months with intermittent panic attacks&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. 12 months is not required for primary GAD diagnostic threshold.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag>
+        <text>bloom:remembering</text>
+      </tag>
+      <tag>
+        <text>difficulty:easy</text>
+      </tag>
+      <tag>
+        <text>source:PSY-GAD-001</text>
+      </tag>
+    </tags>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Psychology/Psychotherapy_Interventions</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>[PSY-CBT-002] CBT Graded Exposure Mechanism in Panic Disorder</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;In first-line Cognitive Behavioral Therapy (CBT) protocols for panic disorder, what is the primary neurobehavioral mechanism underlying interoceptive exposure?&lt;/p&gt;&lt;p&gt;&lt;small&gt;&lt;em&gt;Source: &lt;a href='https://psychstats.miraheze.org/wiki/Psychotherapy/Cognitive_Behavioral_Therapy'&gt;PsychStats Knowledge Base&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>&lt;p&gt;Interoceptive exposure targets conditioned fear of somatic sensations, facilitating cognitive restructuring across 12-16 weekly clinical sessions (Source: PsychStats Wiki).&lt;/p&gt;</text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text>&lt;p&gt;Extinction of catastrophic misinterpretations via systematic habituation to somatic sensations&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Correct. Interoceptive exposure induces benign somatic sensations (hyperventilation, tachycardia) to facilitate inhibitory learning and cognitive re-appraisal.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Immediate suppression of autonomic arousal through deep diaphragmatic avoidance&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Somatic suppression acts as a safety behavior that maintains panic vulnerability.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Desensitization of unconscious psychodynamic defense mechanisms&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. This reflects psychoanalytic models, not empirical CBT learning theory.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Pharmacodynamic downregulation of postsynaptic serotonin receptors&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Pharmacodynamics relates to SSRI pharmacotherapy, not behavioral exposure.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag>
+        <text>bloom:understanding</text>
+      </tag>
+      <tag>
+        <text>difficulty:medium</text>
+      </tag>
+      <tag>
+        <text>source:PSY-CBT-002</text>
+      </tag>
+    </tags>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Statistics/Psychometrics</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>[STAT-ZSCORE-003] Z-Score Standardization &amp; Normative Interpretation</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;A patient completes a standardized Depression Scale where the normative mean is 50 with a standard deviation of 10. The patient obtains a raw score of 72. What is their standardized Z-score, and how is it interpreted clinically?&lt;/p&gt;&lt;p&gt;&lt;small&gt;&lt;em&gt;Source: &lt;a href='https://psychstats.miraheze.org/wiki/Statistics/Descriptive_Statistics'&gt;PsychStats Knowledge Base&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>&lt;p&gt;Standard score transformation Z = (X - μ) / σ maps patient metrics onto the standard Gaussian curve for clinical normative benchmarking (Source: PsychStats Wiki / Layer 3 Normalization).&lt;/p&gt;</text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text>&lt;p&gt;Z = +2.20; indicates severe symptomatology exceeding 98% of the normative population&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Correct. Z = (72 - 50) / 10 = 2.20. In standard Gaussian distributions, Z &gt;= 2.0 indicates clinical elevation exceeding the 97.7th percentile.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Z = +1.20; indicates mild distress within the average range&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Calculation error. (72 - 50) / 10 is 2.20, not 1.20.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Z = -2.20; indicates unusually low depressive affect&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Sign error; a raw score of 72 is above the mean, yielding a positive Z-score.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Z = +22.0; indicates statistical invalidity of the assessment instrument&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Division by standard deviation was omitted in this calculation.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag>
+        <text>bloom:applying</text>
+      </tag>
+      <tag>
+        <text>difficulty:medium</text>
+      </tag>
+      <tag>
+        <text>source:STAT-ZSCORE-003</text>
+      </tag>
+    </tags>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Clinical_Governance/JPAIS_Standards</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>[CLIN-ETHICS-004] Clinical AI SaMD Liability &amp; Legal Oversight</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;Under Indonesian Health Law (UU RI No. 17 Tahun 2023) and the JPAIS-MED-REF Clinical Oversight Standards, who holds legal diagnostic responsibility when a clinician uses an AI Clinical Decision Support (CDS) recommendation?&lt;/p&gt;&lt;p&gt;&lt;small&gt;&lt;em&gt;Source: &lt;a href='https://github.com/salmazahrapsy/psychstats/blob/main/policies/JPAIS_MED_REF/PHYSICIAN_OVERSIGHT_STANDARDS.md'&gt;PsychStats Knowledge Base&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>&lt;p&gt;The Physician-in-the-Loop (PITL) mandate enforces that AI CDS operates strictly as an advisory instrument, preserving human clinician accountability (Source: JPAIS-MED-REF / UU No. 17/2023).&lt;/p&gt;</text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text>&lt;p&gt;The licensed human clinician (DPJP / Psikolog Klinis) retains sole medical responsibility&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Correct. Under UU No. 17/2023 and JPAIS-MED-REF, AI CDS tools are advisory instruments; legal diagnostic responsibility cannot be transferred to algorithms.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;The cloud software vendor hosting the LLM API endpoint&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Cloud software vendors provide technical infrastructure, not licensed medical diagnosis.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;Joint statutory liability shared equally between the AI model and the hospital IT department&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Clinical liability under Indonesian law rests strictly with licensed professionals.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>&lt;p&gt;The Ministry of Health (Kemenkes RI) through automatic state indemnity&lt;/p&gt;</text>
+      <feedback format="html">
+        <text>&lt;p&gt;Incorrect. Kemenkes regulates clinical practice guidelines but does not assume individual practitioner liability.&lt;/p&gt;</text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag>
+        <text>bloom:evaluating</text>
+      </tag>
+      <tag>
+        <text>difficulty:hard</text>
+      </tag>
+      <tag>
+        <text>source:CLIN-ETHICS-004</text>
+      </tag>
+    </tags>
+  </question>
+</quiz>
