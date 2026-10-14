@@ -1,0 +1,59 @@
+name: Ecosystem CI/CD & Multi-Platform Sync
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest flake8
+
+      - name: Execute pytest test suites
+        run: |
+          pytest tests/ -v
+
+  sync-ecosystem:
+    needs: test-and-validate
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ecosystem dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Sync PsychStats Wiki
+        env:
+          MIRAHEZE_BOT_USER: ${{ secrets.MIRAHEZE_BOT_USER }}
+          MIRAHEZE_BOT_PASS: ${{ secrets.MIRAHEZE_BOT_PASS }}
+        run: |
+          if [ -n "$MIRAHEZE_BOT_USER" ] && [ -n "$MIRAHEZE_BOT_PASS" ]; then
+            python src/utils/sync_to_wiki.py --page "Research_Methods/Benchmark_Metrics"
+          else
+            echo "Skipping Wiki Sync: Credentials not configured."
+          fi

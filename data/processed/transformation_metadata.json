@@ -1,0 +1,32 @@
+{
+  "columns": {
+    "sepal_length": {
+      "mean": 5.8433,
+      "std": 0.8281,
+      "min": 4.3,
+      "max": 7.9,
+      "iqr_outliers": 0
+    },
+    "sepal_width": {
+      "mean": 3.0573,
+      "std": 0.4359,
+      "min": 2.0,
+      "max": 4.4,
+      "iqr_outliers": 4
+    },
+    "petal_length": {
+      "mean": 3.758,
+      "std": 1.7653,
+      "min": 1.0,
+      "max": 6.9,
+      "iqr_outliers": 0
+    },
+    "petal_width": {
+      "mean": 1.1993,
+      "std": 0.7622,
+      "min": 0.1,
+      "max": 2.5,
+      "iqr_outliers": 0
+    }
+  }
+}

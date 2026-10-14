@@ -1,0 +1,55 @@
+__NOTOC__
+{| class="wikitable" style="width:100%; background:#f8fafc; border:1px solid #cbd5e1; border-radius:6px; margin-bottom:1.5em;"
+| style="padding:1.5em; text-align:center;" |
+<span style="font-size:2em; font-weight:bold; color:#1e293b;">Salma Zahra Knowledge Ecosystem</span><br/>
+<span style="font-size:1.1em; color:#475569;">Open Knowledge Base for Psychology, Statistics, Data Science & Educational Assessment</span>
+|}
+
+== Knowledge Domains ==
+{| class="wikitable" style="width:100%; border-collapse:collapse;"
+! style="width:50%; background:#f1f5f9; padding:0.75em; text-align:left;" | [[File:Crystal Clear app kdict.png|22px|link=]] [[Psychology]]
+! style="width:50%; background:#f1f5f9; padding:0.75em; text-align:left;" | [[File:Crystal Clear app kcalc.png|22px|link=]] [[Statistics]]
+|-
+| style="vertical-align:top; padding:0.75em;" |
+* [[Cognitive Psychology]] — Memory models, perception, and decision heuristics.
+* [[Psychometrics]] — Construct validity, reliability coefficients, and item analysis.
+* [[Behavioral Modeling]] — Latent trait theory, clustering, and trait scoring.
+| style="vertical-align:top; padding:0.75em;" |
+* [[Descriptive Statistics]] — Measures of central tendency, dispersion, and distributions.
+* [[Inferential Statistics]] — Hypothesis testing, ANOVA, linear regression, and p-values.
+* [[Multivariate Analysis]] — Factor analysis (EFA/CFA) and structural equation modeling.
+|-
+! style="background:#f1f5f9; padding:0.75em; text-align:left;" | [[File:Crystal Clear app linneighborhood.png|22px|link=]] [[Research Methods]]
+! style="background:#f1f5f9; padding:0.75em; text-align:left;" | [[File:Crystal Clear app database.png|22px|link=]] [[Data Analysis]] & [[Programming]]
+|-
+| style="vertical-align:top; padding:0.75em;" |
+* [[Experimental Design]] — Between-subjects, within-subjects, and factorial designs.
+* [[Sampling Methodology]] — Probability vs. non-probability sampling strategies.
+* [[Ethics in Research]] — Informed consent, debriefing, and data integrity.
+| style="vertical-align:top; padding:0.75em;" |
+* [[Python for Psychology]] — Data wrangling with pandas, NumPy, and SciPy.
+* [[Statistical Workflows]] — Feature extraction, normalization, and reproducible pipelines.
+* [[Data Quality]] — Outlier treatment (IQR/Z-scores) and missing-data imputation.
+|}
+
+== Assessment & Learning Infrastructure ==
+{| class="wikitable" style="width:100%;"
+! style="background:#f1f5f9; padding:0.75em; text-align:left;" | [[File:Crystal Clear app kedit.png|22px|link=]] Educational Assessment
+|-
+| style="padding:0.75em;" |
+* [[Question Bank Generation]] — Transforming theoretical articles into validated test items.
+* [[Bloom's Taxonomy Framework]] — Mapping assessment questions from factual recall to evaluative synthesis.
+* [[Moodle Integration]] — Aiken and Moodle XML question formatting, category placement, and automated grading.
+|}
+
+== Research Infrastructure & Connected Platforms ==
+* '''Code & Pipelines:''' [https://github.com/salmazahrapsy GitHub Repositories] — Version-controlled pipelines, testing, and schemas.
+* '''Datasets & Notebooks:''' [https://www.kaggle.com/salmazahra165 Kaggle Profile] — Empirical datasets and computational notebooks.
+* '''Learning Management:''' [https://salmazahra.moodiy.org/my/ Moodle LMS] — Interactive quizzes and modular course delivery.
+* '''Researcher Profile:''' [https://orcid.org/0009-0007-5941-8494 ORCID (0009-0007-5941-8494)] — Academic credentials and scholarly identity.
+* '''Personal Portal:''' [https://salmazahra.biz.id Salma Zahra Website] — Research portfolio and public interface.
+
+[[Category:Psychology]]
+[[Category:Statistics]]
+[[Category:Research Methods]]
+[[Category:Open Knowledge]]
