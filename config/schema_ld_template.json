@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Behavioral Benchmark Dataset",
+  "description": "Standardized psychometric measurements and normalized behavioral traits.",
+  "creator": {
+    "@type": "Person",
+    "name": "Salma Zahra",
+    "identifier": "https://orcid.org/0009-0007-5941-8494"
+  },
+  "keywords": ["psychology", "psychometrics", "statistics", "behavioral-modeling"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "variableMeasured": ["trait_score", "reaction_time", "accuracy"]
+}

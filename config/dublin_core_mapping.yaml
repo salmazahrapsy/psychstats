@@ -1,0 +1,13 @@
+dublin_core:
+  title: "Behavioral Benchmark Dataset"
+  creator: "Salma Zahra"
+  identifier: "https://orcid.org/0009-0007-5941-8494"
+  subject:
+    - "Psychology"
+    - "Psychometrics"
+    - "Quantitative Statistics"
+  description: "Standardized psychometric measurements and normalized behavioral traits."
+  publisher: "PsychStats Open Knowledge Repository"
+  type: "Dataset"
+  format: "text/csv"
+  language: "en"
