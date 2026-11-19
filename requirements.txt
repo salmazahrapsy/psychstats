@@ -5,3 +5,8 @@ openpyxl>=3.1.2
 # Networking & Wiki Delivery
 requests>=2.31.0
 pywikibot>=9.0.0
+
+# Analysis & tests
+scipy>=1.11
+numpy>=1.26
+pytest>=8.0
