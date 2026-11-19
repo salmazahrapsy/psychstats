@@ -14,7 +14,7 @@ from src.generator import ClinicalGroundedGenerator
 
 class QdrantSemanticRetriever:
     def __init__(self, url: str = None, api_key: str = None, collection: str = "psychology_knowledge"):
-        self.url = url or os.getenv("QDRANT_URL", "https://58a2d1c6-8830-4deb-a3b8-8c4b0bb9fde6.australia-southeast1-0.gcp.cloud.qdrant.io:6333")
+        self.url = url or os.getenv("QDRANT_URL")
         self.api_key = api_key or os.getenv("QDRANT_API_KEY")
         self.collection = collection
         self.client = None
